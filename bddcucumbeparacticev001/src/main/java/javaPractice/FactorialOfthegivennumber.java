@@ -8,7 +8,7 @@ public class FactorialOfthegivennumber {
 		/*
 		 * int n = 9; int f = 1; for (int i=1; i<=n; i++) { f = f*i; }
 		 */
-		int n = 198;
+		int n = 13;
 		BigInteger f = BigInteger.ONE;
 		for(int i=1; i<=n; i++) {
 			f = f.multiply(BigInteger.valueOf(i));

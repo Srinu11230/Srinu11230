@@ -12,7 +12,7 @@ public class FindLargestandSecondLargestNumkbers {
 			if (digit > Largest) {
 				SecondLargest = Largest;
 				Largest = digit;
-			}else if (digit <  SecondLargest && digit > Largest) {
+			}else if (digit >  SecondLargest && digit < Largest) {
 				SecondLargest =digit;
 				
 			}

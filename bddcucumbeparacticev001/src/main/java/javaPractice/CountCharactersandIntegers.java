@@ -9,6 +9,7 @@ public class CountCharactersandIntegers {
 		int integers =0;
 		for(int i=0; i<str.length(); i++) {
 			if(Character.isLetter(ch[i])) {
+				
 				character++;
 			}else if(Character.isDigit(ch[i])) {
 				integers++;
@@ -18,3 +19,4 @@ public class CountCharactersandIntegers {
 		System.out.println("Number of the integers in the string is: " + integers);
 	}
 }
+

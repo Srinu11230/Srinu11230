@@ -1,11 +1,13 @@
 package testRunner;
 
 import org.junit.runner.RunWith;
+import org.testng.annotations.DataProvider;
 
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 import io.cucumber.testng.AbstractTestNGCucumberTests;
-@RunWith(Cucumber.class)
+
+//@RunWith(Cucumber.class)
 @CucumberOptions(
 features = "src/test/resources/features",
 glue={"stepDefinations", "Hooks", "utilities"},
@@ -16,15 +18,15 @@ plugin= {"pretty","html:target/cucumber-html-report.html",
 		"json: target/cucumber-report.json "}
 
 )
-public class Testrunner{
 	
-	}
-	/*
-	 * public class Testrunner extends AbstractTestNGCucumberTests{
-	 * 
-	 * @Override
-	 * 
-	 * @DataProvider(parallel = true) public Object[][]scenarios(){ return
-	 * super.scenarios(); } }
-	 */
+	  public class Testrunner extends AbstractTestNGCucumberTests{
+	  
+	  @Override
+	  
+	  @DataProvider(parallel = true) public Object[][]scenarios(){ return
+	  super.scenarios(); 
+	  	} 
+	  
+	  }
+	 
 

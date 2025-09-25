@@ -17,6 +17,8 @@ public class ReversTheString {
 			System.out.println(Str + " : String is not plaindrome");
 		}
 
+		
+		
 	}
 
 }

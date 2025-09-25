@@ -16,6 +16,8 @@ public class FindSmallAndLargeNumbersinArray {
 			}
 			
 		}
+		
+		
 		System.out.println("Smallest number is : " + smallest);
 		System.out.println("Largest number is : " + largest);
 

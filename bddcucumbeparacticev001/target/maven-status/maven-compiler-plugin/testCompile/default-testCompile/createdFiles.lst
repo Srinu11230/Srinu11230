@@ -1,6 +1,7 @@
 utilities\ReadTestData.class
 utilities\Handlingscreenshot.class
 utilities\ReadTestData$1.class
+restAPI\GetListUsers.class
 pageObjects\Loginpage.class
 stepDefinations\LoginStepDefination.class
 utilities\Launchthebrowser.class
